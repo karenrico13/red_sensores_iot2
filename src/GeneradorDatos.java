@@ -43,9 +43,9 @@ public class GeneradorDatos {
             double pm25 = 5 + azar.nextDouble() * 55;
 
             datos[i] = new LecturaSensor(id, timestamp,
-                                         redondear(temperatura),
-                                         redondear(humedad),
-                                         redondear(pm25));
+                    redondear(temperatura),
+                    redondear(humedad),
+                    redondear(pm25));
         }
         return datos;
     }

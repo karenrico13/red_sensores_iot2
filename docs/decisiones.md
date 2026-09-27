@@ -66,3 +66,8 @@ Medición de eficiencia
 ```
 
 La Semana 4 podrá extender esta misma arquitectura para estudiar ordenamiento.
+
+
+# Decisiones de diseño — Semana 3
+- **Búsqueda binaria:** Requiere precondición de ordenamiento por timestamp (O(log n)).
+- **Manejo de Strings:** Se usa `.equals()` en lugar de `==` para comparar contenido y evitar fallos lógicos.
