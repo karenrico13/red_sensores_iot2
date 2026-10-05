@@ -38,6 +38,13 @@ public class IngestaSensores {
         // Los experimentos son parte de esta misma aplicación.
         //
         ejecutarExperimentosSemanaTres();
+        System.out.println();
+        System.out.println("=== EXPERIMENTOS SEMANA 4 ===");
+        BancoDeOrdenamiento.experimentoUno();
+        BancoDeOrdenamiento.experimentoDos();
+        BancoDeOrdenamiento.experimentoTres();
+        BancoDeOrdenamiento.experimentoCuatro();
+        BancoDeOrdenamiento.experimentoCinco();
     }
 
     /**
